@@ -1,0 +1,42 @@
+{
+  "product1": {
+    "id": 1,
+    "img": "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_10_18_Lana_Look1101.jpeg?v=1437081385",
+    "store": "Rickys-teststore",
+    "storeUrl": "https://rickys-teststore.myshopify.com/",
+    "name": "Delicious Camisole",
+    "marketingCopy": "Lace trim accentuates the neckline of this lightweight Camisole by Only Hearts"
+  },
+  "product2": {
+    "id": 2,
+    "img": "https://cdn.shopify.com/s/files/1/0923/8036/products/product_bracelet_1-100_bracelet41_01.jpeg?v=1437081366",
+    "store": "Martin-teststore",
+    "storeUrl": "https://Martin-teststore.myshopify.com/",
+    "name": "Bracelet 41 in Silver",
+    "marketingCopy": "Rustic links adorn a unisex bracelet. 1-100 jewelry gives an organic feel while maintaining an understated elegance."
+  },
+  "product3": {
+    "id": 3,
+    "img": "https://cdn.shopify.com/s/files/1/0923/8036/products/6_21_LOOKS077.jpeg?v=1437081310",
+    "store": "Tara-teststore",
+    "storeUrl": "https://Tara-teststore.myshopify.com/",
+    "name": "Iranta Leather Dress in Black",
+    "marketingCopy": "Supple and stretchy, the Iranta dress from by Malene Birger is as sleek as they come. "
+  },
+  "product4": {
+    "id": 4,
+    "img": "https://cdn.shopify.com/s/files/1/0923/8036/products/2014_11_3_Addis_Look4_02.jpeg?v=1437081258",
+    "store": "Lance-teststore",
+    "storeUrl": "https://Lance-teststore.myshopify.com/",
+    "name": "Lio Shirt in Grey",
+    "marketingCopy": "Understated yet classic, Hannes Roether’s pieces offer versatility through timeless silhouette."
+  },
+  "product5": {
+    "id": 5,
+    "img": "https://cdn.shopify.com/s/files/1/0923/8036/products/Products_12632a.jpeg?v=1437081099",
+    "store": "Philip-teststore",
+    "storeUrl": "https://Philip-teststore.myshopify.com/",
+    "name": "Leather Loafer in Lime",
+    "marketingCopy": "Not your Grandpa’s shoes. These Loafers from Verba are classic in silhouette, yet contemporary with a vegetable-dyed, calf leather body. Leather trim."
+  }
+}

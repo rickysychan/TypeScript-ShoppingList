@@ -1,0 +1,17 @@
+{
+  "purchase1": {
+    "store": "Rickys-teststore",
+    "name": "Delicious Camisole",
+    "purchaseDate": "2021-08-17T05:16:23+0000"
+  },
+  "purchase2": {
+    "store": "Martin-teststore",
+    "name": "Bracelet 41 in Silver",
+    "purchaseDate": "2021-07-19T21:16:23+0000"
+  },
+  "purchase3": {
+    "store": "Philip-teststore",
+    "name": "Leather Loafer in Lime",
+    "purchaseDate": "2021-06-09T17:16:23+0000"
+  }
+}
