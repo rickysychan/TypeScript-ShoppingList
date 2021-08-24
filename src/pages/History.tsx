@@ -50,8 +50,8 @@ const History: React.FC = () => {
         ),
       };
       historyDataArray.push(newObject);
-      setShoppingHistory(historyDataArray);
     }
+    setShoppingHistory(historyDataArray);
   }, []);
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -64,30 +64,32 @@ const History: React.FC = () => {
     }
 
     //filter products based on input
-    let newArray: IShoppingHistory[] = [];
-    shoppingHistory.filter((entry: IShoppingHistory) => {
-      let k: keyof typeof entry;
 
-      for (k in entry) {
-        let value = entry[k];
-        if (k === 'purchaseDate') {
-          value = formatDate(value);
+    let newArray: IShoppingHistory[] = shoppingHistory.filter(
+      (entry: IShoppingHistory) => {
+        let k: keyof typeof entry;
+
+        for (k in entry) {
+          let value = entry[k];
+          if (k === 'purchaseDate') {
+            value = formatDate(value);
+          }
+          if (k === 'storeUrl') {
+            setInput('');
+          }
+          if (
+            value
+              .toLowerCase()
+              .replace(/\s/g, '')
+              .includes(input.toLowerCase().replace(/\s/g, ''))
+          ) {
+            return entry;
+          }
         }
-        if (k === 'storeUrl') {
-          return setInput('');
-        }
-        if (
-          value
-            .toLowerCase()
-            .replace(/\s/g, '')
-            .includes(input.toLowerCase().replace(/\s/g, ''))
-        ) {
-          newArray.push(entry);
-        }
+        return setInput('');
       }
-      setInput('');
-      return setFilteredHistory(newArray);
-    });
+    );
+    setFilteredHistory(newArray);
   };
   const tableRowStyle = {
     margin: '6px',
